@@ -1,0 +1,175 @@
+
+.pos-r{
+    position: absolute;
+    background-color: bisque;
+    height: 250px;
+    width: 250px;
+    right: 0;
+    top: 0 ;
+    z-index: -1;
+}
+.pos-b{
+    position: absolute;
+    background-color: bisque;
+    height: 25vh;
+    width: 15%;
+    left: 0;
+    bottom: 0; 
+    z-index: -1;
+}
+.pop-up{
+    position: absolute;
+    right: 5%;
+    width: 90%;
+    min-height: 80%;
+    
+}
+
+.xr
+{
+    position: absolute; ;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+
+}
+
+
+body{
+    direction: ltr;
+}
+
+
+
+
+
+
+
+
+
+.hover1:hover img
+{
+/* transform: scale(1.2); */
+position: relative;
+z-index: 5;
+
+
+}
+.img1 .box
+{
+    background-color: rgba(254, 84, 84, 0.85);
+    position: absolute;
+    top: 75%;
+    left: 0;
+    right: 0;
+    bottom: -8%;
+    opacity: 0;
+    transition: opacity 1s , transform 1s;
+    
+   
+}
+.img1 img{
+    height: 27vh;
+    object-fit: cover;
+}
+
+.img1
+{
+    position: relative;
+    overflow: hidden;
+    width: 98%;
+    /* cursor: pointer; */
+    z-index:1;
+    transition: opacity 1s , transform 1s,z-index 1s;
+    filter: grayscale(100%);
+    
+}
+.img1:hover{
+    transform: scale(1.1);
+    transition: opacity 1s , transform 1s;
+    z-index: 999;
+    filter: none;
+}
+
+.hover1:hover .box
+{
+    opacity: 1;
+    position: absolute;
+    z-index: 555;
+    /* transform: scale(1.2); */
+}
+
+.hover1{
+    
+    width: 25%;
+    
+}
+.text1
+{
+    font-size: 7px;
+    position: absolute;
+    top: 7px;
+}
+.r-l{
+    position: absolute;
+    bottom: 3px;
+    left: 11px;
+    background-color: saddlebrown;
+    width: 68px;
+    top: 21px;
+    border-radius: 10px;
+    transition:2s;
+    -webkit-transition:2s;
+    -moz-transition:2s;
+    position:absolute;
+    right:calc(100% - 78px);
+}
+.r-l:hover{
+    right: 50px;
+}
+.footer1{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    .xr{
+        opacity: 0;
+    }
+}
+@media screen and (min-width: 801px){
+    .respon{
+        visibility: hidden;
+        display: none;
+    }
+}
+
+
+
+.img2{
+    position: relative;
+}
+.img2 img{
+    height: 240px;
+}
+.box2
+{
+    background-color: rgba(254, 84, 84, 0.85);
+    position: absolute;
+    top: 88%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    
+   
+}
+.clr {clear: both;}
